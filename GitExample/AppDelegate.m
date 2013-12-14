@@ -10,6 +10,8 @@
 
 //This is a comment added as a Git test
 
+//This is a second comment
+
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
