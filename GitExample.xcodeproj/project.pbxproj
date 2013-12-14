@@ -18,6 +18,7 @@
 		AA9ADFE4185CDBCE004DB8B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9ADFC3185CDBCE004DB8B4 /* Cocoa.framework */; };
 		AA9ADFEC185CDBCE004DB8B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9ADFEA185CDBCE004DB8B4 /* InfoPlist.strings */; };
 		AA9ADFEE185CDBCE004DB8B4 /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADFED185CDBCE004DB8B4 /* GitExampleTests.m */; };
+		AA9ADFF9185D03FA004DB8B4 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADFF8185D03FA004DB8B4 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		AA9ADFE9185CDBCE004DB8B4 /* GitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitExampleTests-Info.plist"; sourceTree = "<group>"; };
 		AA9ADFEB185CDBCE004DB8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA9ADFED185CDBCE004DB8B4 /* GitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleTests.m; sourceTree = "<group>"; };
+		AA9ADFF7185D03FA004DB8B4 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		AA9ADFF8185D03FA004DB8B4 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				AA9ADFD8185CDBCE004DB8B4 /* MainMenu.xib */,
 				AA9ADFDB185CDBCE004DB8B4 /* Images.xcassets */,
 				AA9ADFCA185CDBCE004DB8B4 /* Supporting Files */,
+				AA9ADFF7185D03FA004DB8B4 /* MyClass.h */,
+				AA9ADFF8185D03FA004DB8B4 /* MyClass.m */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9ADFF9185D03FA004DB8B4 /* MyClass.m in Sources */,
 				AA9ADFD7185CDBCE004DB8B4 /* AppDelegate.m in Sources */,
 				AA9ADFD0185CDBCE004DB8B4 /* main.m in Sources */,
 			);

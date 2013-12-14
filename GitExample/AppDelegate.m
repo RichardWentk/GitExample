@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+//This is a comment added as a Git test
+
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
