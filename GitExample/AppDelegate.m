@@ -12,6 +12,8 @@
 
 //This is a second comment
 
+//This line was added before a branch
+
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
